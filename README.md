@@ -13,7 +13,7 @@
 
 # How to run the project in your local machine
 
-1- run **"npm install"** to install all of the dependencies.
-2- run **"npm run start"** to start a local server on your machine.
-3- Make all the changes that you will in the comments marked by a double slash (//)
-4- run **"npm run build"** to make a build folder that you be hosting on host services you choose (Netlify for example)
+1- run `"npm install"` to install all of the dependencies.<br/>
+2- run `"npm run start"` to start a local server on your machine.<br/>
+3- Make all the changes that you will in the comments marked by a double slash (//) <br/>
+4- run `"npm run build"` to make a build folder that you be hosting on host services you choose (Netlify for example)
