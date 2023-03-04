@@ -1,0 +1,186 @@
+body {
+  background: #e65c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F9D423, #e65c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F9D423, #e65c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/* .App { 
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+} */
+
+.welcome {
+  font-weight: 800;
+  font-style: italic;
+}
+
+.navbar {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 30px auto;
+  width: 65vw;
+  border-bottom: 1px solid black;
+}
+
+
+.button {
+  margin-left: 20rem;
+  
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.game_data {
+  border: #000428 4px solid;
+  width: 50%;
+  height:50%;
+  margin-right:5%;
+  margin-left: 5%;
+  font-weight: 600;
+  margin-top: 40px;
+  padding: 10px;
+}
+
+.game_description {
+  width: 50%;
+  height:50%;
+  font-weight: 600;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right:5%;
+  margin-left: 5%;
+  border: #000428 4px solid;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+.button,.entrancy_button,.withdraw,.share,.pickWinner {
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:hover, .button:focus,.entrancy_button:hover,.entrancy_button:focus,.withdraw:focus,.withdraw:hover,.share:focus,.share:hover,.pickWinner:focus,.pickWinner:hover,.claiming:hover,.claiming:focus {
+  background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.status {
+  font-weight: 400;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+}
+
+.spinner_selecting_winner {display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.claiming {
+  background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428);
+color: antiquewhite;
+  border-radius: 6px;
+  width: auto;
+  height: 40px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.table_page {
+  width:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+th {
+  border-bottom: 2px solid black;
+}
+  
+td {
+  text-align: center;
+  border: 2px solid black;
+}
+
